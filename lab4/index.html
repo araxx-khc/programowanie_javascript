@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notatnik</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <h1>Notebook</h1>
+    <form id="add-note-form">
+      <label>Title:</label>
+      <input type="text" id="title-input">
+      <br>
+      <label>Contents:</label>
+      <textarea id="content-input"></textarea>
+      <br>
+      <label>Colour:</label>
+      <input type="color" id="color-input" value="#FFFFFF">
+      <br>
+      <label>Pin:</label>
+      <input type="checkbox" id="pin-input">
+      <br>
+      <button type="submit">Add note</button>
+    </form>
+    <div id="notes-list"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
